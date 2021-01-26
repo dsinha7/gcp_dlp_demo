@@ -21,7 +21,8 @@ public class ProcessWithDLP {
 
     public static void main(String[] args) throws Exception {
         // TODO: Replace these variables
-        String projectId = "";
+        String projectId = "dlp-demo-302116";
+        //dlp-demo-302116
         Path inputCsvFile = Paths.get(System.getProperty("user.dir") + "/src/main/resources/iput_data.csv");
         Path outputCsvFile = Paths.get(System.getProperty("user.dir") + "/src/main/resources/output_data.csv");
         System.out.println(inputCsvFile);
